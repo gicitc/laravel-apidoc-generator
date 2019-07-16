@@ -38,10 +38,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Gicitc\\ApiDoc\\": "src",
-            "files": [
-                "src/ApiDocGeneratorServiceProvider.php"
-            ]
+            "Gicitc\\ApiDoc\\": "src"
         }
     },
     "autoload-dev": {
