@@ -162,7 +162,7 @@ let body = {
 fetch(url, {
     method: "GET",
     headers: headers,
-    body: body
+    body: JSON.stringify(body)
 })
     .then(response => response.json())
     .then(json => console.log(json));
