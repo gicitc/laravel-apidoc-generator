@@ -330,7 +330,7 @@ abstract class GeneratorTestCase extends TestCase
      * @test
      * @dataProvider dataResources
      */
-    public function can_parse_transformer_tag($serializer, $expected)
+    /*public function can_parse_transformer_tag($serializer, $expected)
     {
         config(['apidoc.fractal.serializer' => $serializer]);
         $route = $this->createRoute('GET', '/transformerTag', 'transformerTag');
@@ -346,10 +346,10 @@ abstract class GeneratorTestCase extends TestCase
             $response['content'],
             $expected
         );
-    }
+    }*/
 
     /** @test */
-    public function can_parse_transformer_tag_with_model()
+    /*public function can_parse_transformer_tag_with_model()
     {
         $route = $this->createRoute('GET', '/transformerTagWithModel', 'transformerTagWithModel');
         $parsed = $this->generator->processRoute($route);
@@ -364,10 +364,10 @@ abstract class GeneratorTestCase extends TestCase
             $response['content'],
             '{"data":{"id":1,"description":"Welcome on this test versions","name":"TestName"}}'
         );
-    }
+    }*/
 
     /** @test */
-    public function can_parse_transformer_collection_tag()
+    /*public function can_parse_transformer_collection_tag()
     {
         $route = $this->createRoute('GET', '/transformerCollectionTag', 'transformerCollectionTag');
         $parsed = $this->generator->processRoute($route);
@@ -383,10 +383,10 @@ abstract class GeneratorTestCase extends TestCase
             '{"data":[{"id":1,"description":"Welcome on this test versions","name":"TestName"},'.
             '{"id":1,"description":"Welcome on this test versions","name":"TestName"}]}'
         );
-    }
+    }*/
 
     /** @test */
-    public function can_parse_transformer_collection_tag_with_model()
+    /*public function can_parse_transformer_collection_tag_with_model()
     {
         $route = $this->createRoute('GET', '/transformerCollectionTagWithModel', 'transformerCollectionTagWithModel');
         $parsed = $this->generator->processRoute($route);
@@ -402,7 +402,7 @@ abstract class GeneratorTestCase extends TestCase
             '{"data":[{"id":1,"description":"Welcome on this test versions","name":"TestName"},'.
             '{"id":1,"description":"Welcome on this test versions","name":"TestName"}]}'
         );
-    }
+    }*/
 
     /** @test */
     public function can_call_route_and_generate_response()
