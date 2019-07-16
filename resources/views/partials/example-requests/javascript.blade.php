@@ -30,7 +30,7 @@ fetch(url, {
     method: "{{$route['methods'][0]}}",
     headers: headers,
 @if(count($route['bodyParameters']))
-    body: body
+    body: JSON.stringify(body)
 @endif
 })
     .then(response => response.json())
