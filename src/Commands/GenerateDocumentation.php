@@ -8,12 +8,12 @@ use Illuminate\Routing\Route;
 use Illuminate\Console\Command;
 use Gicitc\ApiDoc\Tools\Flags;
 use Gicitc\ApiDoc\Tools\Utils;
-use Gicitc\Reflection\DocBlock;
+use Mpociot\Reflection\DocBlock;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\URL;
 use Gicitc\ApiDoc\Tools\Generator;
 use Gicitc\ApiDoc\Tools\RouteMatcher;
-use Gicitc\Documentarian\Documentarian;
+use Mpociot\Documentarian\Documentarian;
 use Gicitc\ApiDoc\Postman\CollectionWriter;
 use Gicitc\ApiDoc\Tools\DocumentationConfig;
 

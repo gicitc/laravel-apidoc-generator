@@ -6,8 +6,8 @@ use Faker\Factory;
 use ReflectionClass;
 use ReflectionMethod;
 use Illuminate\Routing\Route;
-use Gicitc\Reflection\DocBlock;
-use Gicitc\Reflection\DocBlock\Tag;
+use Mpociot\Reflection\DocBlock;
+use Mpociot\Reflection\DocBlock\Tag;
 use Gicitc\ApiDoc\Tools\Traits\ParamHelpers;
 
 class Generator

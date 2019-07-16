@@ -4,7 +4,7 @@ namespace Gicitc\ApiDoc\Tools\ResponseStrategies;
 
 use Illuminate\Routing\Route;
 use Illuminate\Http\JsonResponse;
-use Gicitc\Reflection\DocBlock\Tag;
+use Mpociot\Reflection\DocBlock\Tag;
 
 /**
  * Get a response from the docblock ( @response ).

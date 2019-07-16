@@ -3,7 +3,7 @@
 namespace Gicitc\ApiDoc\Commands;
 
 use Illuminate\Console\Command;
-use Gicitc\Documentarian\Documentarian;
+use Mpociot\Documentarian\Documentarian;
 
 class RebuildDocumentation extends Command
 {

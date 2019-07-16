@@ -8,7 +8,7 @@ use League\Fractal\Manager;
 use Illuminate\Routing\Route;
 use Gicitc\ApiDoc\Tools\Flags;
 use League\Fractal\Resource\Item;
-use Gicitc\Reflection\DocBlock\Tag;
+use Mpociot\Reflection\DocBlock\Tag;
 use League\Fractal\Resource\Collection;
 
 /**
