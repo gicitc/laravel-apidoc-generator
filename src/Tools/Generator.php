@@ -1,14 +1,14 @@
 <?php
 
-namespace Mpociot\ApiDoc\Tools;
+namespace Gicitc\ApiDoc\Tools;
 
 use Faker\Factory;
 use ReflectionClass;
 use ReflectionMethod;
 use Illuminate\Routing\Route;
-use Mpociot\Reflection\DocBlock;
-use Mpociot\Reflection\DocBlock\Tag;
-use Mpociot\ApiDoc\Tools\Traits\ParamHelpers;
+use Gicitc\Reflection\DocBlock;
+use Gicitc\Reflection\DocBlock\Tag;
+use Gicitc\ApiDoc\Tools\Traits\ParamHelpers;
 
 class Generator
 {

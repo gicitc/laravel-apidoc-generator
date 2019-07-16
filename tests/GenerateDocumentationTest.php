@@ -1,19 +1,19 @@
 <?php
 
-namespace Mpociot\ApiDoc\Tests;
+namespace Gicitc\ApiDoc\Tests;
 
 use ReflectionException;
 use Illuminate\Support\Str;
-use Mpociot\ApiDoc\Tools\Utils;
+use Gicitc\ApiDoc\Tools\Utils;
 use Orchestra\Testbench\TestCase;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Config;
-use Mpociot\ApiDoc\Tests\Fixtures\TestController;
-use Mpociot\ApiDoc\ApiDocGeneratorServiceProvider;
+use Gicitc\ApiDoc\Tests\Fixtures\TestController;
+use Gicitc\ApiDoc\ApiDocGeneratorServiceProvider;
 use Illuminate\Support\Facades\Route as RouteFacade;
-use Mpociot\ApiDoc\Tests\Fixtures\TestResourceController;
-use Mpociot\ApiDoc\Tests\Fixtures\TestNaturalSortController;
-use Mpociot\ApiDoc\Tests\Fixtures\TestPartialResourceController;
+use Gicitc\ApiDoc\Tests\Fixtures\TestResourceController;
+use Gicitc\ApiDoc\Tests\Fixtures\TestNaturalSortController;
+use Gicitc\ApiDoc\Tests\Fixtures\TestPartialResourceController;
 
 class GenerateDocumentationTest extends TestCase
 {

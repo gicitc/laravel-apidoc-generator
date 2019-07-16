@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpociot\ApiDoc\Tools;
+namespace Gicitc\ApiDoc\Tools;
 
 use Illuminate\Routing\Route;
 use Dingo\Api\Routing\RouteCollection;

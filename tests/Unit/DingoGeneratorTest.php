@@ -1,10 +1,10 @@
 <?php
 
-namespace Mpociot\ApiDoc\Tests\Unit;
+namespace Gicitc\ApiDoc\Tests\Unit;
 
 use Dingo\Api\Routing\Router;
-use Mpociot\ApiDoc\Tests\Fixtures\TestController;
-use Mpociot\ApiDoc\ApiDocGeneratorServiceProvider;
+use Gicitc\ApiDoc\Tests\Fixtures\TestController;
+use Gicitc\ApiDoc\ApiDocGeneratorServiceProvider;
 
 class DingoGeneratorTest extends GeneratorTestCase
 {

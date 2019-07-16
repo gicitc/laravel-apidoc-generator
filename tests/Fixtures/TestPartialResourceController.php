@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpociot\ApiDoc\Tests\Fixtures;
+namespace Gicitc\ApiDoc\Tests\Fixtures;
 
 class TestPartialResourceController
 {

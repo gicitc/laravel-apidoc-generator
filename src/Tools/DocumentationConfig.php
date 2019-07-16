@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpociot\ApiDoc\Tools;
+namespace Gicitc\ApiDoc\Tools;
 
 class DocumentationConfig
 {

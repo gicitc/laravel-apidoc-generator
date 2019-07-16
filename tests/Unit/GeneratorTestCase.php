@@ -1,12 +1,12 @@
 <?php
 
-namespace Mpociot\ApiDoc\Tests\Unit;
+namespace Gicitc\ApiDoc\Tests\Unit;
 
 use Orchestra\Testbench\TestCase;
-use Mpociot\ApiDoc\Tools\Generator;
+use Gicitc\ApiDoc\Tools\Generator;
 use Illuminate\Support\Facades\Storage;
-use Mpociot\ApiDoc\Tools\DocumentationConfig;
-use Mpociot\ApiDoc\ApiDocGeneratorServiceProvider;
+use Gicitc\ApiDoc\Tools\DocumentationConfig;
+use Gicitc\ApiDoc\ApiDocGeneratorServiceProvider;
 
 abstract class GeneratorTestCase extends TestCase
 {

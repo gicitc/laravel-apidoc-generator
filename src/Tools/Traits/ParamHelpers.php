@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpociot\ApiDoc\Tools\Traits;
+namespace Gicitc\ApiDoc\Tools\Traits;
 
 trait ParamHelpers
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Mpociot\ApiDoc\Tests\Unit;
+namespace Gicitc\ApiDoc\Tests\Unit;
 
 use Dingo\Api\Routing\Router;
 use Orchestra\Testbench\TestCase;
-use Mpociot\ApiDoc\Tools\RouteMatcher;
+use Gicitc\ApiDoc\Tools\RouteMatcher;
 use Illuminate\Support\Facades\Route as RouteFacade;
 
 class RouteMatcherTest extends TestCase

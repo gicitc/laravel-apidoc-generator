@@ -1,10 +1,10 @@
 <?php
 
-namespace Mpociot\ApiDoc\Tools\ResponseStrategies;
+namespace Gicitc\ApiDoc\Tools\ResponseStrategies;
 
 use Illuminate\Routing\Route;
 use Illuminate\Http\JsonResponse;
-use Mpociot\Reflection\DocBlock\Tag;
+use Gicitc\Reflection\DocBlock\Tag;
 
 /**
  * Get a response from the docblock ( @response ).

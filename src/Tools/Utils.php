@@ -1,6 +1,6 @@
 <?php
 
-namespace Mpociot\ApiDoc\Tools;
+namespace Gicitc\ApiDoc\Tools;
 
 use Illuminate\Support\Str;
 use Illuminate\Routing\Route;

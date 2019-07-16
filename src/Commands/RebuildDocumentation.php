@@ -1,9 +1,9 @@
 <?php
 
-namespace Mpociot\ApiDoc\Commands;
+namespace Gicitc\ApiDoc\Commands;
 
 use Illuminate\Console\Command;
-use Mpociot\Documentarian\Documentarian;
+use Gicitc\Documentarian\Documentarian;
 
 class RebuildDocumentation extends Command
 {

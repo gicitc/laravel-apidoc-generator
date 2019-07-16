@@ -1,21 +1,21 @@
 <?php
 
-namespace Mpociot\ApiDoc\Commands;
+namespace Gicitc\ApiDoc\Commands;
 
 use ReflectionClass;
 use ReflectionException;
 use Illuminate\Routing\Route;
 use Illuminate\Console\Command;
-use Mpociot\ApiDoc\Tools\Flags;
-use Mpociot\ApiDoc\Tools\Utils;
-use Mpociot\Reflection\DocBlock;
+use Gicitc\ApiDoc\Tools\Flags;
+use Gicitc\ApiDoc\Tools\Utils;
+use Gicitc\Reflection\DocBlock;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\URL;
-use Mpociot\ApiDoc\Tools\Generator;
-use Mpociot\ApiDoc\Tools\RouteMatcher;
-use Mpociot\Documentarian\Documentarian;
-use Mpociot\ApiDoc\Postman\CollectionWriter;
-use Mpociot\ApiDoc\Tools\DocumentationConfig;
+use Gicitc\ApiDoc\Tools\Generator;
+use Gicitc\ApiDoc\Tools\RouteMatcher;
+use Gicitc\Documentarian\Documentarian;
+use Gicitc\ApiDoc\Postman\CollectionWriter;
+use Gicitc\ApiDoc\Tools\DocumentationConfig;
 
 class GenerateDocumentation extends Command
 {

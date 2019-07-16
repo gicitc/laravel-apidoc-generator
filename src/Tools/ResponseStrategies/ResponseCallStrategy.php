@@ -1,14 +1,14 @@
 <?php
 
-namespace Mpociot\ApiDoc\Tools\ResponseStrategies;
+namespace Gicitc\ApiDoc\Tools\ResponseStrategies;
 
 use Dingo\Api\Dispatcher;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Routing\Route;
-use Mpociot\ApiDoc\Tools\Flags;
-use Mpociot\ApiDoc\Tools\Utils;
-use Mpociot\ApiDoc\Tools\Traits\ParamHelpers;
+use Gicitc\ApiDoc\Tools\Flags;
+use Gicitc\ApiDoc\Tools\Utils;
+use Gicitc\ApiDoc\Tools\Traits\ParamHelpers;
 
 /**
  * Make a call to the route and retrieve its response.
