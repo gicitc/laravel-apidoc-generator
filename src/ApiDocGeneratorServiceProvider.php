@@ -1,5 +1,4 @@
 <?php
-
 namespace Gicitc\ApiDoc;
 
 use Illuminate\Support\ServiceProvider;

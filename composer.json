@@ -49,6 +49,7 @@
     "scripts": {
         "test-ci": "phpunit --coverage-clover=coverage.xml"
     },
+    "config": {"sort-packages": true},
     "extra": {
         "laravel": {
             "providers": [
